@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>数学函数图形绘制</title>
+
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <div id="top">
+    <div style="text-align:center;clear:both">
+      <h1>数学函数图形查看器</h1>
+
+    </div>
+    函数：y =
+    <input type="text" value="(x+4)^2*(x-6)+60sinx" id="input" />
+    <input type="button" value="绘制" id="simplify" />
+  </div>
+  <div id="wrapper">
+    <div id="result"></div>
+    <ul>
+      <li>加法:(x+y) 减法:(x-y) 乘法:(x*y or (x)(y)) 除法:(x/y)</li>
+       <li>乘方: (x^y or x^(1/y) )</li>
+      <li>三角函数: sin, cos, tan, asin, acos, atan, abs</li>
+      <li>方程中只能包含x </li>
+    </ul>
+    <div id="footer"> 源代码下载自网站 html5tricks <a href="https://www.html5tricks.com/html5-xcalc-demo.html">网址</a> --- 威海一中 六班 蔡佳学</div>
+  </div>
+
+  <!-- <script src='http://codepen.io/assets/libs/fullpage/none.js'></script> -->
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
